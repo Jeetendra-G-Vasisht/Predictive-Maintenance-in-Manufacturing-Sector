@@ -1,5 +1,6 @@
 Predictive Maintenance in Manufacturing Sector
 
+Overview
 The process of brake manufacturing consists of multiple stages involving different kinds of machines like CNC for cutting the metal sheets, Grinder for grinding the brake parts, Hydraulic Press to make sure the parts are perfectly assembled and Testing machine to ensure the brakes operate as expected without any inaccuracies.Monitoring these machines is crucial as downtime can cause issues like delay in production, quality issues and increased costs. Our model solves this problem by predicting the machine’s current health, remaining utility lifespan and anomaly causing components in these machines.This helps the plant in going for a predictive maintenance rather than reactive. We aim to build the model efficient enough to create an appropriate maintenance schedules in order to avoid unwanted downtimes and therefore reducing costs and saving production time.
 
 This project focuses on implementing predictive maintenance for brake manufacturing machines, including CNC, Grinders, Hydraulic Presses, and Testing machines.By forecasting machine health and potential failures, we aim to reduce downtime, optimize maintenance schedules, and enhance production efficiency.
@@ -23,10 +24,11 @@ This repository contains several Jupyter notebooks, dataset and requirements fil
 1. maintenance_data.csv: Dataset used for predictive maintenance
 2. ANN.ipynb: Artificial Neural Network algorithm
 3. logistic_regression.ipynb: Logistic Regression algorithm
-4. predictive_maintenance.ipynb: XGBoost algorithm
+4. predictive_maintenance.ipynb: XGBoost algorithm(main file)
 5. randomForest.ipynb: Random Forest algorithm
 6. svm.ipynb: Support Vector Machine algorithm
-7. requirements.txt: Contains list of all required libraries
+7. xgboost.ipynb: XGBoost algorithm
+8. requirements.txt: Contains list of all required libraries
 
 Steps to run the code:
 1. Clone the repository.
