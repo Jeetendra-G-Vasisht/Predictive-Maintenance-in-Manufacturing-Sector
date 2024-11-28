@@ -18,6 +18,7 @@ Evaluation Criteria:
 3. Complexity: Ease of deployment & interpretability
 4. Robustness: Ability to handle noisy/missing data
 
+Based on above Criterion the best choosen Algorithm is XGBoost which is used in the main file - predictive_maintenance.ipynb.
 
 This repository contains several Jupyter notebooks, dataset and requirements file implementing different machine learning models for predictive maintenance:
 
